@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  color: #ffffffc0;
+  }
+
+body{
+  background-image: url('../../imagenes/i.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: auto;
+  width: auto;
+  background-size: cover ;
+  animation: animacionondas 45s infinite;
+  
+}
+
+@keyframes animacionondas {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+
+}
+
+
+.container {
+  width: 800px;
+  background: #2c2a2ab6;
+  padding: 50px;
+  margin: auto;
+  margin-top: 80px;
+  border-radius: 100px;
+  font-family: Helvetica;
+  color: rgba(255, 255, 255, 0.829);
+  border-color: #24303c;
+  float: center;
+  
+  
+}
+
+.logo{
+  font-size: 20px;
+  text-align: left;
+}

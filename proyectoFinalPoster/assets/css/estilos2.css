@@ -1,0 +1,124 @@
+.barra-superior {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+.barra-superior img {
+  height: 50px;
+  margin-right: 10px;
+}
+
+.barra-superior h1 {
+  margin: 0;
+}
+
+.titulo {
+  background-color: #f2f2f2;
+  padding: 100px 20px 20px 40px;
+  text-align: left;
+}
+
+.titulo h2 {
+  margin: 0;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.container {
+  overflow: auto;
+  /* Limpiar el flujo para evitar que elementos flotantes causen problemas en el diseño */
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.slider{
+width: 50%;
+height: 550px;
+padding: 2%;
+overflow: hidden;
+float: right;
+}
+.slider ul{
+  display: flex;
+  animation: cambio 10s infinite;
+  width: 200%;
+}
+.slider li{
+  width: 100%;
+  list-style: none;
+}
+.slider img{
+  width: 70%;
+  height: 100%;
+}
+@keyframes cambio {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.elemento {
+  animation: fade-in 2s ease-in-out;
+}
+
+
+
+.titulo p {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.titulo img {
+  height: 200px;
+  margin-left: 30px;
+}
+
+.titulo button {
+  background-color: #333;
+  color: #fff;
+  font-size: 20px;
+  border: none;
+  padding: 10px 50px;
+  margin-top: 50px;
+  
+  cursor: pointer;
+}
+
+.titulo button:hover {
+  background-color: #555;
+}
+
+#comenzar{
+  background-color: #333;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 5%;
+}
+
+#comenzar:hover{
+  background-color: #272727;
+}
+
+.titulo button:hover {
+  background-color: #555;
+}
+
+
