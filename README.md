@@ -27,7 +27,7 @@ Las diferentes responsabilidades que se asignaron a cada componente son las sigu
 <br>**Modelo:** Este componente se encarga de establecer la conexión con la base de datos, así como de realizar las diferentes consultas 
 para almacenar o recuperar la información según la solicitud que se realice.
 <br><br>**Vista:** Este componente se encarga de desplegar las diferentes ventanas con la información que se recupera de la base de datos 
-por medio del modelo. Es quien le muestra al cliente lo que solicita.
+por medio del modelo. Es quien le muestra al usuario lo que solicita.
 <br><br>**Controlador:** Este componente se encarga de ser intermediario entre el Modelo y la Vista. Es decir, según las diferentes solicitudes que haga la Vista, 
 el Controlador se comunicará con el Modelo para que este posteriormente proporcione la información requerida, información la cual será proporcionada a la Vista 
 nuevamente por medio del Controlador.
