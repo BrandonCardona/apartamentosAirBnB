@@ -32,9 +32,9 @@ por medio del modelo. Es quien le muestra al usuario lo que solicita.
 el Controlador se comunicará con el Modelo para que este posteriormente proporcione la información requerida, información la cual será proporcionada a la Vista 
 nuevamente por medio del Controlador.
 
-INSTALACIÓN DEL PROYECTO
+¿CÓMO UTILIZAR EL PROYECTO?
 -
-Para instalar correctamente el proyecto, es necesario seguir los siguientes pasos: 
+Para utilizar correctamente el proyecto, es necesario seguir los siguientes pasos:
 - Instalar "XAMPP".
 - Clonar el repositorio en la carpeta local de "htdocs".
 - Inicializar MySQL desde XAMPP.
